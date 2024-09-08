@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Investor Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        .container{
+            max-width: 1280px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 2rem 1rem;
+        }
+        .card{
+            text-align: center;
+            box-shadow: 0px 0px 5px 1px #e5e7eb;
+            border-radius: 8px;
+        }
+        .card > div:first-child{
+            width: 100%;
+            border-top: 8px solid #e5e7eb;
+            border-radius: 8px;
+        }
+        .card > div:last-child{
+            width: 140px;
+            margin: 0 auto 8px;
+        }
+        .card > div:last-child > img, .card > div:first-child > img{
+            width: 100%;
+        }
+        .card > p{
+            font-family: "Open Sans", sans-serif;
+            margin: 0;
+        }
+        .card > p:nth-child(2){
+            font-weight: 700;
+            padding: 6px 8px 0;
+        }
+        .card > p:nth-child(3){
+            padding: 0 8px;
+        }
+
+        @media screen and (max-width:780px) {
+            .container{
+                max-width: 600px;
+                grid-template-columns: repeat(2,1fr);
+            }         
+        }
+        @media screen and (max-width:480px) {
+            .container{
+                max-width: 300px;
+                grid-template-columns: repeat(1,1fr);
+            }         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_one.png" alt="image">
+            </div>
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <div>
+                <img src="./assets/images/paytm.svg" alt="paytm">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_two.png" alt="image">
+            </div>
+            <p>Kunal Shah</p>
+            <p>Founder</p>
+            <div>
+                <img src="./assets/images/cred.png" alt="cred">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_three.png" alt="image">
+            </div>
+            <p>Amrish Rau</p>
+            <p>CEO</p>
+            <div>
+                <img src="./assets/images/pineLabs.png" alt="pine-labs">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_four.png" alt="image">
+            </div>
+            <p>Sampad Swain</p>
+            <p>Co-Founder & CEO</p>
+            <div>
+                <img src="./assets/images/instamojo.png" alt="instamojo">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_five.png" alt="image">
+            </div>
+            <p>Ankush Sachdeva</p>
+            <p>Co-Founder & CEO</p>
+            <div>
+                <img src="./assets/images/sharechat.svg" alt="sharechat">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_six.png" alt="image">
+            </div>
+            <p>Bhanu Pratap Singh</p>
+            <p>Co founder & CEO</p>
+            <div>
+                <img src="./assets/images/sharechat.svg" alt="sharechat">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_seven.png" alt="image">
+            </div>
+            <p>Farid Ahsan</p>
+            <p>Co-Founder & CEO</p>
+            <div>
+                <img src="./assets/images/sharechat.svg" alt="sharechat">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_eight.png" alt="image">
+            </div>
+            <p>Amit Kumar Agarwal</p>
+            <p>Fouder & CEO</p>
+            <div>
+                <img src="./assets/images/noBroker.svg" alt="nobroker">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_nine.png" alt="image">
+            </div>
+            <p>Akhil Gupta</p>
+            <p>Fonder & CTO</p>
+            <div>
+                <img src="./assets/images/noBroker.svg" alt="nobroker">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_ten.png" alt="image">
+            </div>
+            <p>Saurabh Garg</p>
+            <p>Co-Founder & CBO</p>
+            <div>
+                <img src="./assets/images/noBroker.svg" alt="noBroker">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_eleven.png" alt="image">
+            </div>
+            <p>Vipin Pathak</p>
+            <p>Co-Founder & CEO</p>
+            <div>
+                <img src="./assets/images/care24.png" alt="care24">
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="./assets/images/card_img_twelve.png" alt="image">
+            </div>
+            <p>Ramakant Sharma</p>
+            <p>Founder</p>
+            <div>
+                <img src="./assets/images/livspace.png" alt="livspace">
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
